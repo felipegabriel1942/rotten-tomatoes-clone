@@ -1,0 +1,6 @@
+.content-container {
+  background-color: white;
+  margin: 0px 60px;
+  margin-top: 70px;
+  height: calc(100vh - 70px);
+}

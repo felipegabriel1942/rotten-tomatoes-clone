@@ -1,0 +1,30 @@
+header {
+  background-color: #fa320a;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+img {
+  cursor: pointer;
+  margin: 10px;
+}
+
+input {
+  border-radius: 30px;
+  height: 33px;
+  background-color: rgb(141, 20, 20);
+  border: none;
+  width: 300px;
+  color: white;
+  margin: 10px;
+  padding-left: 15px;
+}
+
+::placeholder {
+  color: white;
+}
