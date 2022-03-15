@@ -14,6 +14,17 @@ img {
   margin: 10px;
 }
 
+.search-input {
+  position: relative;
+}
+
+.search-input fa-icon {
+  position: absolute;
+  top: 8px;
+  padding: 10px 17px;
+  color: white;
+}
+
 input {
   border-radius: 30px;
   height: 33px;
@@ -22,7 +33,7 @@ input {
   width: 300px;
   color: white;
   margin: 10px;
-  padding-left: 15px;
+  padding-left: 35px;
 }
 
 ::placeholder {
