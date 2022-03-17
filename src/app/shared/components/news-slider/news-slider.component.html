@@ -1,0 +1,12 @@
+<div class="slideshow-container">
+  <div class="slides">
+    <app-news-card [news]="newsList[slideIndex]"></app-news-card>
+  </div>
+
+  <button class="prev" (click)="previousSlide()">
+    <span>&#10094;</span>
+  </button>
+  <button class="next" (click)="nextSlide()">
+    <span>&#10095;</span>
+  </button>
+</div>
