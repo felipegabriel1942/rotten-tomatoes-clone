@@ -1,6 +1,6 @@
 header {
   background-color: #fa320a;
-  height: 70px;
+  height: 80px;
   display: flex;
   align-items: center;
   position: fixed;
@@ -17,7 +17,7 @@ img {
 
 fa-icon {
   position: absolute;
-  top: 17px;
+  top: 22px;
   padding: 10px 17px;
   color: white;
 }

@@ -1,0 +1,40 @@
+.movie-slider-container {
+  padding: 15px;
+}
+
+.movie-slider {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding: 10px 0;
+  height: 340px;
+}
+
+.movie {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.movie-image {
+  border-radius: 10px;
+}
+
+.movie-score {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.movie-score > span {
+  margin-left: 5px;
+}
+
+.movie-title {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 4px;
+}
+
+.movie-score:hover,
+.movie-title:hover {
+  color: cornflowerblue;
+}

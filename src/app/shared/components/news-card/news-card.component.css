@@ -1,10 +1,20 @@
-.news-container {
+.news-card-container {
   position: relative;
 }
 
 img {
   width: 100%;
   height: 300px;
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 p {

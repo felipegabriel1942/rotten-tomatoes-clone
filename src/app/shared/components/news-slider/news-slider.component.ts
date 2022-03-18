@@ -20,9 +20,9 @@ export class NewsSliderComponent implements OnInit {
   startSlide(): void {
     clearInterval(this.interval);
 
-    // this.interval = setInterval(() => {
-    //   this.nextSlide();
-    // }, 8000);
+    this.interval = setInterval(() => {
+      this.nextSlide();
+    }, 8000);
   }
 
   nextSlide(): void {

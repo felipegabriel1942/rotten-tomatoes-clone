@@ -1,0 +1,20 @@
+<div class="movie-slider-container">
+  <app-component-header [text]="title"></app-component-header>
+  <div class="movie-slider">
+    <div *ngFor="let movie of movies" class="movie">
+      <img
+        [src]="movie?.posterImageUrl"
+        height="240"
+        width="170"
+        class="movie-image"
+      />
+      <p class="movie-score">
+        <img
+          [src]="defineTomatoImage(movie)"
+          height="16"
+        /><span>{{ movie.criticScore }}%</span>
+      </p>
+      <p class="movie-title">{{ movie.title }}</p>
+    </div>
+  </div>
+</div>

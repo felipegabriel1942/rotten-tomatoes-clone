@@ -1,0 +1,37 @@
+[
+  {
+    "title": "The Batman",
+    "criticScore": 85,
+    "posterImageUrl": "https://t.ctcdn.com.br/XDiptbyb8AUjwN_fFj-ns90TrOs=/660x0/smart/i554287.jpeg"
+  },
+  {
+    "title": "Turning Red",
+    "criticScore": 95,
+    "posterImageUrl": "https://preview.redd.it/pacd4x0yg6081.jpg?width=640&crop=smart&auto=webp&s=60ace2bdeb01dcd571883e3c02d19e0e6a68c17f"
+  },
+  {
+    "title": "Uncharted",
+    "criticScore": 41,
+    "posterImageUrl": "https://assets-prd.ignimgs.com/2022/01/13/uncharted-poster-full-1642086040683.jpg"
+  },
+  {
+    "title": "Spider-Man: No Way Home",
+    "criticScore": 93,
+    "posterImageUrl": "https://terrigen-cdn-dev.marvel.com/content/prod/1x/snh_online_6072x9000_posed_01.jpg"
+  },
+  {
+    "title": "Morbius",
+    "criticScore": 17,
+    "posterImageUrl": "https://legadodamarvel.com.br/wp-content/uploads/2021/12/morbius-poster-legadodamarvel.jpg"
+  },
+  {
+    "title": "The Power of the Dog",
+    "criticScore": 94,
+    "posterImageUrl": "https://m.media-amazon.com/images/M/MV5BZGRhYjE2NWUtN2FkNy00NGI3LTkxYWMtMDk4Yjg5ZjI3MWI2XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Texas Chainsaw Massacre",
+    "criticScore": 33,
+    "posterImageUrl": "https://m.media-amazon.com/images/M/MV5BMDE1NDllMTQtZjhkZS00OTY0LTliNmItMzhkZTk1YjU2N2IxXkEyXkFqcGdeQXVyMTA2ODkwNzM5._V1_.jpg"
+  }
+]
