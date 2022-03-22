@@ -3,8 +3,17 @@
   grid-template-columns: 2fr 1fr 1fr;
 }
 
+.movie-list-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 @media (max-width: 900px) {
   .news-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .movie-list-grid {
     grid-template-columns: 1fr;
   }
 }

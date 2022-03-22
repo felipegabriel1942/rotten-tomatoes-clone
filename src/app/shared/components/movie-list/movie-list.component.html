@@ -1,0 +1,10 @@
+<div class="movie-list-header-container">
+  <app-component-header [text]="title"></app-component-header>
+</div>
+
+<div class="movie-list-container">
+  <div *ngFor="let movie of movies" class="list-item">
+    <span>{{ movie.title }}</span>
+    <app-movie-score [score]="movie.criticScore"></app-movie-score>
+  </div>
+</div>

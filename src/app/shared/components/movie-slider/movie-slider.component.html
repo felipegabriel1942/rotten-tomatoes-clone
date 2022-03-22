@@ -8,12 +8,7 @@
         width="170"
         class="movie-image"
       />
-      <p class="movie-score">
-        <img
-          [src]="defineTomatoImage(movie)"
-          height="16"
-        /><span>{{ movie.criticScore }}%</span>
-      </p>
+      <app-movie-score [score]="movie?.criticScore"></app-movie-score>
       <p class="movie-title">{{ movie.title }}</p>
     </div>
   </div>
