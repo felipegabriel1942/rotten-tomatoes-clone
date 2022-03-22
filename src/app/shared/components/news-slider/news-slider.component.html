@@ -1,6 +1,8 @@
 <div class="slideshow-container">
   <div class="slides">
-    <app-news-card [news]="newsList[slideIndex]"></app-news-card>
+    <ng-container *ngFor="let slide of newsList; let i = index">
+      <app-news-card [news]="slide" *ngIf="slideIndex === i"></app-news-card>
+    </ng-container>
   </div>
 
   <button class="prev" (click)="previousSlide()">

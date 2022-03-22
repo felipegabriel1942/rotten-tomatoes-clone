@@ -6,7 +6,12 @@ import { MovieSliderComponent } from './components/movie-slider/movie-slider.com
 import { ComponentHeaderComponent } from './components/component-header/component-header.component';
 
 @NgModule({
-  declarations: [NewsSliderComponent, NewsCardComponent, MovieSliderComponent, ComponentHeaderComponent],
+  declarations: [
+    NewsSliderComponent,
+    NewsCardComponent,
+    MovieSliderComponent,
+    ComponentHeaderComponent,
+  ],
   imports: [CommonModule],
   exports: [NewsSliderComponent, NewsCardComponent, MovieSliderComponent],
 })
