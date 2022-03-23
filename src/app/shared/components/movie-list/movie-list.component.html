@@ -3,7 +3,11 @@
 </div>
 
 <div class="movie-list-container">
-  <div *ngFor="let movie of movies" class="list-item">
+  <div
+    *ngFor="let movie of movies"
+    class="list-item"
+    (click)="onClick.emit(movie)"
+  >
     <span>{{ movie.title }}</span>
     <app-movie-score [score]="movie.criticScore"></app-movie-score>
   </div>

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { MovieService } from 'src/app/core/services/movie.service';
 import { NewsService } from 'src/app/core/services/news.service';
 import { Movie } from 'src/app/shared/models/movie.model';
@@ -16,7 +17,8 @@ export class HomeComponent implements OnInit {
 
   constructor(
     private movieService: MovieService,
-    private newsService: NewsService
+    private newsService: NewsService,
+    private router: Router
   ) {}
 
   ngOnInit(): void {
@@ -27,6 +29,7 @@ export class HomeComponent implements OnInit {
   findMovies(): void {
     this.movieService.findMovies().subscribe((res) => {
       this.movies = res;
+      console.log(this.movies);
     });
   }
 
@@ -44,5 +47,9 @@ export class HomeComponent implements OnInit {
         return res.length - 1 === i;
       })[0];
     });
+  }
+
+  onMovieSelected(movie: Movie): void {
+    this.router.navigate(['/movie', movie.id]);
   }
 }

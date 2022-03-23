@@ -7,19 +7,23 @@
 <app-movie-slider
   [title]="'NEW & UPCOMING MOVIES'"
   [movies]="movies"
+  (onClick)="onMovieSelected($event)"
 ></app-movie-slider>
 
 <div class="movie-list-grid">
   <app-movie-list
     [title]="'Popular streaming movies'"
     [movies]="movies"
+    (onClick)="onMovieSelected($event)"
   ></app-movie-list>
   <app-movie-list
     [title]="'MOST POPULAR TV ON RT'"
     [movies]="movies"
+    (onClick)="onMovieSelected($event)"
   ></app-movie-list>
   <app-movie-list
     [title]="'NEW TV THIS WEEK'"
     [movies]="movies"
+    (onClick)="onMovieSelected($event)"
   ></app-movie-list>
 </div>

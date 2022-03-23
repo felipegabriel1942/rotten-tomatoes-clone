@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Movie } from '../../models/movie.model';
 
 @Component({
@@ -9,6 +9,8 @@ import { Movie } from '../../models/movie.model';
 export class MovieSliderComponent implements OnInit {
   @Input() title: string;
   @Input() movies: Movie[] = [];
+
+  @Output() onClick = new EventEmitter();
 
   constructor() {}
 

@@ -1,7 +1,11 @@
 <div class="movie-slider-container">
   <app-component-header [text]="title"></app-component-header>
   <div class="movie-slider">
-    <div *ngFor="let movie of movies" class="movie">
+    <div
+      *ngFor="let movie of movies"
+      class="movie"
+      (click)="onClick.emit(movie)"
+    >
       <img
         [src]="movie?.posterImageUrl"
         height="240"
