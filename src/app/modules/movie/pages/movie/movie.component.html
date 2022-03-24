@@ -1,1 +1,12 @@
-<p>movie works!</p>
+<div
+  style="display: grid; grid-template-columns: 1fr 5fr; justify-content: center"
+>
+  <img
+    [src]="movie?.posterImageUrl"
+    height="240"
+    width="170"
+    class="movie-image"
+  />
+
+  <app-movie-score-card [movie]="movie"></app-movie-score-card>
+</div>
