@@ -30,7 +30,7 @@ input {
   color: white;
   margin: 10px;
   padding-left: 35px;
-  width: 300px;
+  width: 100%;
 }
 
 @media (max-width: 568px) {

@@ -29,7 +29,6 @@ export class HomeComponent implements OnInit {
   findMovies(): void {
     this.movieService.findMovies().subscribe((res) => {
       this.movies = res;
-      console.log(this.movies);
     });
   }
 

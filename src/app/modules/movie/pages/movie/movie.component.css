@@ -1,3 +1,19 @@
+.movie-card-container {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  justify-content: center;
+}
+
 .movie-image {
   border-radius: 10px;
+}
+
+@media screen and (max-width: 680px) {
+  .movie-image {
+    display: none;
+  }
+
+  .movie-card-container {
+    grid-template-columns: 1fr;
+  }
 }

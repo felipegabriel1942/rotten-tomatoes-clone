@@ -8,7 +8,7 @@
     class="list-item"
     (click)="onClick.emit(movie)"
   >
-    <span>{{ movie.title }}</span>
-    <app-movie-score [score]="movie.criticScore"></app-movie-score>
+    <span>{{ movie?.title }}</span>
+    <app-movie-score [movie]="movie"></app-movie-score>
   </div>
 </div>

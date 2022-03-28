@@ -15,4 +15,9 @@ export class Movie {
     this.criticScore = criticScore;
     this.posterImageUrl = posterImageUrl;
   }
+
+  get isCriticScoreFresh(): boolean {
+    return this.criticScore >= 60;
+  }
+
 }
